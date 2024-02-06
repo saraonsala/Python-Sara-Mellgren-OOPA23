@@ -5,5 +5,8 @@ print(numbers)
 print (squers)
 
 plt.plot(numbers, squers)
+plt.title("x^2 for positive integers 0-9")
+plt.xlabel("x")
+plt.ylabel("y")
 plt.show()
 
