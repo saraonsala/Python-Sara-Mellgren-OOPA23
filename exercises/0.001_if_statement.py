@@ -1,13 +1,14 @@
 
 try:
-    num = int(input(f"Choose a number,then I'll tell you if it's positive or negative: "))
+    num1 = int(input(f"enter two numbers and I'll tell you which one is bigger: "))
+    num2 = int(input(f"And now the seccond number: "))
 
-    if num <= 1:
-        print("Your number is negative")
-    elif num ==0 :
-        print(" Your number is zero")
+    if num1 < num2:
+        print("The smallest number is:",num2 )
+    elif num1 > num2 :
+        print(" The smallest number is:",num1)
     else:
-        print ("Your number is positive")
+        print ("Both numbers are equal.")
 
 except ValueError:
     print("Invalid entry. Please enter a valid number.")
